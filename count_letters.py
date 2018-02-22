@@ -8,7 +8,7 @@ imp.reload(sys)
 from collections import Counter
 import operator
 
-cyrillic = u"АаӘәБбВвГгҒғДдЕеЁёЖжЗзИиЙйКкҚқЛлМмНнҢңОоӨөПпРрСсТтУуҰұҮүФфХхҺһЦцЧчШшЩщЪъЫыІіЬьЭэЮюЯя"
+cyrillic = u"АаӘәБбВвГгҒғДдЕеЁёЖжЗзИиЙйКкҚқЛлМмНнҢңОоӨөПпРрСсТтУуҰұҮүФфХхҺһЦцЧчШшЩщЪъЫыІіІiЬьЭэЮюЯя"
 
 ascii_lowercase = cyrillic.lower()
 with open("in.txt","r") as in_file:
